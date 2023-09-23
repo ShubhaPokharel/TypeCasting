@@ -11,7 +11,10 @@ Example 1-
 
 class test{
 
-  public static void main(String[] args){
+  public static void main(String[] args){                      Output:
+
+                                                                10.0
+
 
     double d = 10;
 
@@ -20,7 +23,3 @@ class test{
   }
   
 }
-
-Output:
-
-10.0
