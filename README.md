@@ -11,10 +11,7 @@ Example 1-
 
 class test{
 
-  public static void main(String[] args){                      Output:
-
-                                                                10.0
-
+  public static void main(String[] args){                     
 
     double d = 10;
 
@@ -23,3 +20,23 @@ class test{
   }
   
 }
+
+Output - 10.0
+
+10 is integer, but it gets converted to a double number. That is done by the compiler automatically, it will convert automatically.
+
+Example 2-
+
+class test{
+
+  public static void main(String[] args){                     
+
+    int data = 'a';
+
+    System.out.println(data);
+    
+  }
+  
+}
+
+Output- 97
